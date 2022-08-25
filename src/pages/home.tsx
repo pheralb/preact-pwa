@@ -5,11 +5,20 @@ const Home = () => {
   return (
     <>
       <div>
-        <a href="https://vitejs.dev" target="_blank">
+        <a href="https://vitejs.dev/" target="_blank">
+          <img src="/icons/vite.svg" class="logo" alt="Preact logo" />
+        </a>
+        <a href="https://preactjs.com/" target="_blank">
           <img src="/icons/preact.svg" class="logo" alt="Vite logo" />
         </a>
-        <a href="https://preactjs.com" target="_blank">
-          <img src="/icons/vite.svg" class="logo preact" alt="Preact logo" />
+        <a href="https://www.typescriptlang.org/" target="_blank">
+          <img src="/icons/typescript.svg" class="logo" alt="Typescript logo" />
+        </a>
+        <a href="https://vite-plugin-pwa.netlify.app/" target="_blank">
+          <img src="/icons/pwa.svg" class="logo" alt="React-Router logo" />
+        </a>
+        <a href="https://reactrouter.com/en/main" target="_blank">
+          <img src="/icons/react-router.svg" class="logo" alt="React-Router logo" />
         </a>
       </div>
       <h2>Vite + Preact + Typescript + PWA + React-Router</h2>
@@ -33,7 +42,8 @@ const Home = () => {
           <strong>📖 Manifest:</strong> <code>manifest.json</code>.
         </p>
         <p>
-          <strong>⭐ PWA config:</strong> <code>vite.config.ts</code>, <code>src/pwa/serviceWorker.tsx</code>.
+          <strong>⭐ PWA config:</strong> <code>vite.config.ts</code>,{" "}
+          <code>src/pwa/serviceWorker.tsx</code>.
         </p>
       </div>
       <a
