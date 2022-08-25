@@ -1,10 +1,10 @@
-## ⚛️ Preact-PWA
+# ⚛️ Preact-PWA
 
 > **pheralb/preact-pwa** is a boilerplate to build fast progressive web applications with Preact & Vitejs.
 
-- 👀 [Demo - Cloudflare Pages (soon)](#)
+- 👀 [Demo - Cloudflare Pages (soon)](https://preact-pwa.pages.dev/).
 
-### 🚀 Getting Started
+## 🚀 Getting Started
 
 You will need:
 
@@ -42,7 +42,7 @@ pnpm run dev
 
 [💡] Open **src/pages/home.tsx** and start editing your project.
 
-### 📦 Installed
+## 📦 Installed
 
 - ⚡️ [Vitejs](https://vitejs.dev/) - Next Generation Frontend Tooling.
 - ⚛️ [Preact](https://preactjs.com/) - Fast 3kB alternative to React with the same modern API.
@@ -51,9 +51,10 @@ pnpm run dev
 - 📲 [Vite-Plugin-PWA](https://vite-plugin-pwa.netlify.app/) - Zero-config and framework-agnostic PWA Plugin for Vite.
 - 🔷 [Vite-tsconfig-paths](https://github.com/aleclarson/vite-tsconfig-paths) - Support for TypeScript's path mapping in Vite.
 
-### 📂 Directory structure
+## 📂 Directory structure
 
 - Your fonts, images, icons... ->
+
 ```tree
 ├── public
 │   └── icons
@@ -61,6 +62,7 @@ pnpm run dev
 ```
 
 - Your Preact application... ->
+
 ```tree
 ├── src
 │   └── pages       <- App pages.
@@ -68,7 +70,23 @@ pnpm run dev
 │   └── styles      <- CSS styles.
 ```
 
-### 🌟 Deploy
+## 🌟 Deploy
+
+> 🪧 Remember use Nodejs 16 to compile the project to production.
+
+- Cloudflare Pages:
+
+```
+- Framework preset: Create React App
+- Build command: npm run build
+- Build output directory: dist
+```
+
+and create a environment variable with:
+
+```
+NODE_VERSION 16.16.0
+```
 
 - Netlify:
 
@@ -86,8 +104,6 @@ content:
 
 ```json
 {
-  "rewrites":  [
-    {"source": "/(.*)", "destination": "/"}
-  ]
+  "rewrites": [{ "source": "/(.*)", "destination": "/" }]
 }
 ```
