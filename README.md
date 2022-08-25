@@ -2,7 +2,7 @@
 
 > **pheralb/preact-pwa** is a boilerplate to build fast progressive web applications with Preact & Vitejs.
 
-- 👀 [Demo - Cloudflare Pages (soon)](https://preact-pwa.pages.dev/).
+- 👀 [Demo - Cloudflare Pages](https://preact-pwa.pages.dev/).
 
 ## 🚀 Getting Started
 
@@ -42,7 +42,7 @@ pnpm run dev
 
 [💡] Open **src/pages/home.tsx** and start editing your project.
 
-## 📦 Installed
+## 📦 Packages
 
 - ⚡️ [Vitejs](https://vitejs.dev/) - Next Generation Frontend Tooling.
 - ⚛️ [Preact](https://preactjs.com/) - Fast 3kB alternative to React with the same modern API.
@@ -107,3 +107,7 @@ content:
   "rewrites": [{ "source": "/(.*)", "destination": "/" }]
 }
 ```
+
+## ⚒️ Resources
+
+- 🔎 SEO meta tags: [gist by ikurotime](https://gist.github.com/ikurotime/5736b6d56cb9d6a2c9184a8b2424d795).
