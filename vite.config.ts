@@ -16,7 +16,9 @@ export default defineConfig({
       manifest,
       includeAssets: ["/icons/preact.svg", "/icons/vite.svg"],
       devOptions: {
-        enabled: true,
+        // Switch to true to enable service worker caching in development =>
+        // Remember to clear the port 127.0.0.1:5173 cache.
+        enabled: false,
       },
       workbox: {
         globPatterns: ["**/*.{js,ts,css,html}", "**/*.{svg,png,jpg,gif}"],
